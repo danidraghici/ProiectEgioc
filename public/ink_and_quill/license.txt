@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ink and Quill
+* source:	https://sketchfab.com/3d-models/ink-and-quill-c944c0a7a1944fd9a6b31012bcf25f4a
+* author:	Arthur J (https://sketchfab.com/arthurjrm)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ink and Quill" (https://sketchfab.com/3d-models/ink-and-quill-c944c0a7a1944fd9a6b31012bcf25f4a) by Arthur J (https://sketchfab.com/arthurjrm) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
