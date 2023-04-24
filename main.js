@@ -582,7 +582,7 @@ function animate() {
         Tracker8 = !Tracker8;
         if (Tracker8) {
           const LightR = new THREE.PointLight(0x005eff, 2, 5);
-          LightR.translateX(2.7).translateY(0.0).translateZ(-2.8);
+          LightR.translateX(-3.0).translateY(1.0).translateZ(2.5);
           LightR.castShadow = true;
           scene.add(LightR);
           LightR.name = "LightR";
@@ -597,7 +597,7 @@ function animate() {
         Tracker9 = !Tracker9;
         if (Tracker9) {
           const LightR2 = new THREE.PointLight(0xffff00, 2, 5);
-          LightR2.translateX(2.7).translateY(0.0).translateZ(-2.8);
+          LightR2.translateX(-1.0).translateY(3.0).translateZ(-2.5);
           LightR2.castShadow = true;
           scene.add(LightR2);
           LightR2.name = "LightR2";
@@ -673,7 +673,7 @@ function animate() {
         xTracker = !xTracker;
         if (xTracker) {
           const dLight = new THREE.PointLight(0xfff00, 2, 2);
-          dLight.translateX(0).translateY(0).translateZ(4.0);
+          dLight.translateX(2.7).translateY(0.0).translateZ(-2.8);
           dLight.castShadow = true;
           dLight.name = "dLight";
           scene.add(dLight);
