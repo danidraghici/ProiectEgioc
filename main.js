@@ -305,18 +305,18 @@ loader.load("./modern_door/scene.gltf", function (gltf2) {
     obj2.rotateOnAxis(new THREE.Vector3(0, 1, 0), Math.PI / 2);
 });
 
-loader.load("./book/scene.gltf", function (gltf3) {
+loader.load("./old_book/scene.gltf", function (gltf3) {
     obj3 = gltf3.scene;
-    gltf3.scene.scale.set(0.0034, 0.002, 0.0034);
+    gltf3.scene.scale.set(0.034, 0.02, 0.074);
     scene.add(gltf3.scene);
-    obj3.translateX(3.0).translateY(0.45).translateZ(-2.8);
+    obj3.translateX(3.0).translateY(0.45).translateZ(-3);
     obj3.rotateOnAxis(new THREE.Vector3(0, 1, 0), Math.PI / 2);
     obj3.rotation.y += 2.0;
   });
 
-  loader.load("./stool/scene.gltf", function (gltf4) {
+  loader.load("./wooden_stool.glb", function (gltf4) {
     obj4 = gltf4.scene;
-    gltf4.scene.scale.set(0.002, 0.0015, 0.004);
+    gltf4.scene.scale.set(0.2, 0.17, 0.4);
     scene.add(gltf4.scene);
     obj4.translateX(3.0).translateY(0.0).translateZ(-2.8);
     obj4.rotateOnAxis(new THREE.Vector3(0, 1, 0), Math.PI / 2);
